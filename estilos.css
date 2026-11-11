@@ -1,0 +1,286 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #252525;
+    background-color: #F4F5F7;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+
+.div_ppal {
+    width: 55%;
+    margin: 20px auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border-top: 8px solid #D6A52B;
+    border-bottom: 8px solid #D6A52B;
+}
+
+.caja_logo {
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.caja_logo img {
+    width: 90px;
+    display: block;
+}
+.encabezado {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.encabezado img {
+    width: 65px;
+    height: auto;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+.banner_principal {
+    width: 93%;
+    height:auto;
+    display:inline-block;
+    border-radius:10px;
+
+}
+
+
+h1{
+    text-align: center;
+    color: #30335B;
+}
+
+.text{
+    padding: 0 15px 15px 15px;
+    text-align:justify;
+}
+
+
+
+.lema {
+    background-color: #30335B;
+    color: #D6A52B;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.institucion {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+
+
+h2 {
+    font-size: 28px;
+    color: #30335B;
+    text-align: center;
+    margin: 15px;
+}
+
+.presentacion {
+    font-size: 18px;
+    color: #252525;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #D6A52B;
+    width: 95%;
+    margin: 20px auto;
+}
+
+
+.tablas {
+
+    width: 50%;
+
+    border-collapse: collapse;
+
+    margin-top: 12px;
+  font-size: 0.9rem;
+
+}
+
+.tablas tr:hover {
+
+    background-color: #f1f5f9;
+
+}
+
+.tabls1 {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Centrar o alinear las celdas de horarios si lo prefieres */
+.tabls1 th, 
+.tabls1 td {
+    padding: 8px 10px;
+    text-align: center; /* Centra los días y las horas para mayor orden */
+    border-bottom: 1px solid #D6A52B;
+}
+
+/* Color y estilo de la cabecera de la tabla de horarios */
+.tabls1 th {
+    background-color: #D6A52B; /* Coincide con el azul institucional de tu web */
+    color: #020202;            /* Texto blanco */
+    font-weight: bold;
+}
+
+.tarjetas {   
+    width: 95%;
+    margin: 20px auto;
+}  
+
+.f1c1, .f2c2, .f3c1 {
+    background-color: #F5EEDF;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-top: 5px solid #D6A52B;
+    border-radius: 15px;
+    background-color: #F5EEDF;
+}
+
+.f1c2, .f2c1, .f3c2 {
+    background-color: #EDF0F5;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-top: 5px solid #D6A52B;
+    border-radius: 15px;
+    background-color: #F5EEDF;
+}
+
+
+
+
+.tarjetas h3 {
+
+    font-size: 20px;
+
+    color: #171717;
+
+    margin: 0 0 5px 0;
+
+}
+
+
+
+.tarjetas p {
+
+    font-size: 16px;
+
+    color: #252525;
+
+    text-align: left;
+
+    margin: 5px 0;
+
+}
+
+
+
+
+.tarjetas a {
+
+    font-size: 16px;
+
+    color: #30335B;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.pie {
+    background-color: #30335B;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    
+    padding: 15px;
+    margin: 0;
+}
+
+
+.titulo_inicio {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 10px 5px 10px;
+    margin: 0;
+}
+
+.presentacion {
+    background-color: #F5EEDF;
+    color: #30335B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.subpresentacion {
+    background-color: #F5EEDF;
+    color: #252525;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px 15px 10px;
+    margin: 0;
+}
+
+.subpresentacion1 {
+    background-color: #F5EEDF;
+    color: #252525;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 10px 15px 10px;
+    margin: 0;
+}
+
+.foto {
+    display: flex;
+    padding: 8px;
+    border-radius: 1px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.foto img {
+    width: 200px;
+    display: block;
+}
