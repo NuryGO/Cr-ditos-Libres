@@ -272,15 +272,45 @@ hr {
     margin: 0;
 }
 
-.foto {
+.galeria {
     display: flex;
+    gap: 24px; 
+    flex-wrap: wrap; 
+}
+
+
+.foto {
     padding: 8px;
-    border-radius: 1px;
-    vertical-align: middle;
-    margin-right: 12px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 8px 10px 12px #D6A52B;
+    border-radius: 20px;
+    background-color: #fff;
 }
 
 .foto img {
-    width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 12px; 
     display: block;
+}
+
+.volver {
+  margin: 16px 0;
+}
+
+.volver a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #12355b;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #12355b;
+}
+
+.volver a:hover,
+.volver a:focus {
+  background: #12355b;
+  color: #fff;
 }
