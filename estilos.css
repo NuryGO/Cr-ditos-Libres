@@ -323,15 +323,17 @@ hr {
         border-radius: 0;
     }
 
-    .tarjetas tr {
+    .tarjetas > tbody > tr,
+    .tarjetas > tr {
         display: block;
         width: 100%;
         margin-bottom: 15px;
     }
 
-    .tarjetas td {
+    .tarjetas > tbody > tr > td,
+    .tarjetas > tr > td {
         display: block;
         width: 100%;
         box-sizing: border-box;
     }
- }
+}
